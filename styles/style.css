@@ -57,6 +57,7 @@ ol {
 }
 
 .content__list {
+  position: relative;
   block-size: 298px;
   overflow-y: scroll;
 }
@@ -73,6 +74,7 @@ ol {
 }
 
 .result__video-container {
+  position: relative;
   inline-size: 711px;
   block-size: 386px;
 }
@@ -97,3 +99,4 @@ ol {
   inline-size: 194px;
   block-size: 103px;
 }
+
