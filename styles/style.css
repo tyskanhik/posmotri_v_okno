@@ -36,3 +36,33 @@ ul,
 ol {
   list-style: none;
 }
+
+.page {
+  display: flex;    /* распологаем контент по центру */
+}
+
+.content {
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: start;
+  gap: 30px;
+  inline-size: 1140px;
+}
+
+.search-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.content__list {
+  block-size: 298px;
+  overflow-y: scroll;
+}
+
+.content__details {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
