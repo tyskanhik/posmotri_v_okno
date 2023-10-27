@@ -66,3 +66,34 @@ ol {
   flex-direction: column;
   gap: 26px;
 }
+
+.result {
+  display: grid;          /* для отступа снизу видео */
+  gap: 16px;
+}
+
+.result__video-container {
+  inline-size: 711px;
+  block-size: 386px;
+}
+
+.result__video {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  object-position: center;
+}
+
+.content__list-item:not(:first-child) {
+  padding-block-start: 30px;
+}
+
+.content__video-card {
+  display: grid;
+  grid-template-columns: 1fr min-content;
+}
+
+.content__video-card-thumbnail {
+  inline-size: 194px;
+  block-size: 103px;
+}
