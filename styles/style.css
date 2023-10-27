@@ -64,6 +64,7 @@ ol {
 .content__details {
   display: flex;
   flex-direction: column;
+  justify-content: flex-end;
   gap: 26px;
 }
 
