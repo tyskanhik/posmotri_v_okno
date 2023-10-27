@@ -213,7 +213,7 @@ ol {
   outline-offset: 1px;
 }
 
-.search-form__label:focus{
+.search-form__textfield:focus{
   outline: none;
 }
 
