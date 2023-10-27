@@ -72,6 +72,7 @@ ol {
 .result {
   display: grid;          /* для отступа снизу видео */
   gap: 16px;
+  padding-top: 78px;
 }
 
 .result__video-container {
@@ -101,3 +102,37 @@ ol {
   block-size: 103px;
 }
 
+.search-form__fieldset-title {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.title {
+  font-family: Oswald;
+  font-size: 75px;
+  font-weight: 700;
+  line-height: 94%;
+  text-transform: uppercase;
+}
+
+.content__accent {
+  color: #545050;
+}
+
+.content__card-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.content__video-card-title {
+  font-family: Oswald;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 100%; /* 30px */
+  text-transform: uppercase;
+}
+
+.content__video-card-description {
+  line-height: 16.2px; 
+  padding-block-start: 6px;
+}
