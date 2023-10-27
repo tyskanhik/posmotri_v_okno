@@ -158,13 +158,28 @@ ol {
 
 .button {
   cursor: pointer;
+  padding: 6px 0;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  font-family: "Fira Sans Condensed";
+  font-weight: 800;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.search-form__submit-button {
+  width: 194px;
+}
+
+.more-button {
+  width: 100%;
 }
 
 .search-form__textfield {
   width: 225px;
   appearance: none; 
   background-color: transparent;
-  font-family: Fira Sans Condensed;
+  font-family: "Fira Sans Condensed";
   font-size: 18px;
   font-weight: 400;
   color: #fff;
