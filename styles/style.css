@@ -85,8 +85,8 @@ ol {
   object-position: center;
 }
 
-.content__list-item:not(:first-child) {
-  padding-block-start: 30px;
+.content__list-item:not(:last-child) {
+  padding-block-end: 30px;
 }
 
 .content__video-card {
