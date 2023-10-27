@@ -115,6 +115,7 @@ ol {
 .search-form__fieldset-title {
   font-size: 18px;
   font-weight: 400;
+  padding-bottom: 5px;
 }
 
 .title {
@@ -145,4 +146,38 @@ ol {
 .content__video-card-description {
   line-height: 16.2px; 
   padding-block-start: 6px;
+}
+
+.search-form__fieldset {
+  border: none;
+}
+
+.search-form__label {
+  cursor: pointer;
+}
+
+.button {
+  cursor: pointer;
+}
+
+.search-form__textfield {
+  width: 225px;
+  appearance: none; 
+  background-color: transparent;
+  font-family: Fira Sans Condensed;
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.search-form__checkbox-list {
+  display: inline-flex;
+  gap: 15px;
+}
+
+.search-form__pseudo-checkbox {
+  width: 19px;
+  height: 19px;
+  display: inline-block;
+  border: 1px solid #fff;
 }
