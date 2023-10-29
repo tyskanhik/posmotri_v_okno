@@ -113,7 +113,7 @@ ol {
 .content__list {
   position: relative;
   block-size: 298px;
-  overflow: auto;
+  overflow-y: scroll;
 }
 
 .content__list-item:not(:last-child) {
@@ -138,6 +138,7 @@ ol {
 }
 
 .content__video-card-title {
+  padding: 2px;
   font-family: Oswald, sans-serif;
   font-size: 30px;
   font-weight: 700;
@@ -147,7 +148,7 @@ ol {
 
 .content__video-card-description {
   line-height: 16.2px;
-  padding-block-start: 6px;
+  padding-block-start: 4px;
 }
 
 .search-form__fieldset {
@@ -210,6 +211,7 @@ ol {
 }
 
 .search-form__text:active {
+  text-decoration: none;
   outline: 1px solid #fff;
 }
 
@@ -236,6 +238,10 @@ ol {
   text-decoration: underline;
 }
 
+.search-form__label:active:not(.search-form__label:has(.search-form__textfield)) {
+  text-decoration: none;
+}
+
 .button:focus {
   outline: none;
 }
@@ -245,6 +251,7 @@ ol {
 }
 
 .button:active {
+  text-decoration: none;
   background-color: #545050;
 }
 
@@ -265,6 +272,10 @@ ol {
   text-decoration: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 1px;
+}
+
+.content__video-card-description-container:active {
+  text-decoration: none;
 }
 
 .content__card-link_current:focus {
