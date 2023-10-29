@@ -149,6 +149,7 @@ ol {
 .content__video-card-description {
   line-height: 16.2px;
   padding-block-start: 4px;
+  padding-inline-start: 2px;
 }
 
 .search-form__fieldset {
