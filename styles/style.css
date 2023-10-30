@@ -114,6 +114,7 @@ ol {
   position: relative;
   block-size: 298px;
   overflow-y: scroll;
+  inline-size: 416px;
 }
 
 .content__list-item:not(:last-child) {
@@ -138,7 +139,8 @@ ol {
 }
 
 .content__video-card-title {
-  padding: 2px;
+  padding-block-start: 2px;
+  padding-inline-start: 2px;
   font-family: Oswald, sans-serif;
   font-size: 30px;
   font-weight: 700;
@@ -235,6 +237,16 @@ ol {
   background-color: #fff;
 }
 
+.search-form__checkbox[type='checkbox']:active+.search-form__pseudo-checkbox::after {
+  content: "";
+  display: block;
+  position: relative;
+  inset: 1px;
+  width: 15px;
+  height: 15px;
+  background-color: #fff;
+}
+
 .search-form__label:hover:not(.search-form__label:has(.search-form__textfield)) {
   text-decoration: underline;
 }
@@ -277,6 +289,7 @@ ol {
 
 .content__video-card-description-container:active {
   text-decoration: none;
+  background-color: #545050;
 }
 
 .content__card-link_current:focus {
