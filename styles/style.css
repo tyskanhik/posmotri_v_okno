@@ -134,12 +134,12 @@ ol {
 
 .content__video-card-thumbnail {
   object-fit: cover;
-  inline-size: 194px;
+  inline-size: 180px;
   block-size: 103px;
 }
 
 .content__video-card-description-container {
-  inline-size: 185px;
+  inline-size: 200px;
 }
 
 .content__video-card-title {
